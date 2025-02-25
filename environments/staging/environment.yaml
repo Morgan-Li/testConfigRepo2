@@ -36,11 +36,6 @@ app:
       value: 7rgjkvbjl487r2i1bvialvj2f4
     - name: clientSecret
       value: "{aes}AIUxkkmTE73hJrAj3oN5OMYQnC9j3NWNJNTXXAchJ97qyrr7MHYMmn1NEtxgHXFqmYp8VNEAYhB5hJS8voLsRYyfA/7GpDdznGs/DtYEqzlw"
-    - name: cert_keys
-      value: |
-      value: |
-        this is a multi line key
-        meow
 
   # observability:
   #  cloudwatch:   
