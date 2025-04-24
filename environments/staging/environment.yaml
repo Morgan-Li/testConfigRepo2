@@ -9,7 +9,7 @@ app:
     min: 1
     # max number of instances. defaults to 1 if min == 0, otherwise defaults to min
     # q: what's the overall limit?
-    max: 2
+    max: 1
   resources:
     # max cpu, defaults to 1 cpu limit, half of that for min, min >= 1
     # q: what's the overall limit?
@@ -37,13 +37,15 @@ app:
     - name: clientSecret
       value: "{aes}AIUxkkmTE73hJrAj3oN5OMYQnC9j3NWNJNTXXAchJ97qyrr7MHYMmn1NEtxgHXFqmYp8VNEAYhB5hJS8voLsRYyfA/7GpDdznGs/DtYEqzlw"
 
+  libertyVersionPolicy: "latest-lts"
+
   # observability:
   #  cloudwatch:   
   #    arn: arn:aws:logs:region:account-id:destination:destination_name
   #    logGroup: myLogGroup
   #    region: us-east-1
 
-  version: "d601d117-2586-4155-96bb-0b7e0c936e57"
+  version: "8fbb368f-b1f6-4ba9-bd65-a202d158969d"
 # probes
 # dynamic scaling
 # scaling to 0
