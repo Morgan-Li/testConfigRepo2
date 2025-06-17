@@ -39,6 +39,7 @@ app:
 
   libertyVersionPolicy: "25.0.0.3"
 
+
   # observability:
   #  cloudwatch:   
   #    arn: arn:aws:logs:region:account-id:destination:destination_name
